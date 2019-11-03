@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora Flex</title>
+</head>
+
+<body>
+    <h1>Calculadora Flex</h1>
+    <img src="img/neutro.png" alt="Calculadora Flex" id="imgFlex">
+    <form name="frmFlex">
+        <p>
+            <input type="text" name="txtEtanol" placeholder="Etanol">
+            <input type="text" name="txtGasolina" placeholder="Gasolina">
+        </p>
+        <p>
+            <input type="button" value="Calcular" onclick="calcular(txtEtanol.value,txtGasolina.value)">
+            <input type="reset" value="Limpar" onclick="limpar()">
+        </p>
+    </form>
+    <script src="calculoFlex.js"></script>
+</body>
+
+</html>
