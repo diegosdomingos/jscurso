@@ -11,13 +11,22 @@
 <body>
     <h1>Cálculo da Média</h1>
     <form name="frmMedia">
-        <input type="text" name="txtNota1" placeholder="Nota1">
-        <input type="text" name="txtNota2" placeholder="Nota2">
+        <p>
+            <input type="text" name="txtNota1" placeholder="Nota1">
+        </p>
+        <p>
+            <input type="text" name="txtNota2" placeholder="Nota2">
+        </p>
         <p>
             <input type="button" value="Calcular" onclick="calcular(txtNota1.value,txtNota2.value)">
             <input type="reset" value="Limpar">
         </p>
-        <input type="text" name="txtMedia" placeholder="Media">
+        <p>
+            <input type="text" name="txtMedia" placeholder="Media" disabled>
+        </p>
+        <p>
+            <input type="text" name="txtResultado" placeholder="Resultado" disabled>
+        </p>
     </form>
     <script src="media.js"></script>
 </body>
