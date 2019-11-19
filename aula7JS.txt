@@ -1,0 +1,29 @@
+Conceituar no console:
+while(condição) {
+  //condição verdadeira
+}
+// só executa o(s) comando(s) internos se a
+   condição for verdadeira
+____________________________________________
+
+do {
+  //condição verdadeira
+} while()
+
+// sempre executa 1 vez o(s) comando(s) internos
+   independente da condição, depois se comporta
+   como o laço while(){}
+
+_________________________________________________
+Array:
+Comandos para verificar o array
+console.log(array)
+console.table(array)
+
+*** Em array multidimensional (matriz), para recuperar
+    o conteúdo de um array bidimensional, usamos a
+    [linha][coluna] dos índices
+
+
+
+
