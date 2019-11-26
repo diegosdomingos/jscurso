@@ -1,0 +1,36 @@
+array em JS são objetos:
+
+console.log(carros)
+console.table(carros)
+typeof(carros)
+_________________________________________________
+Funções especiais (API) para trabalhar com array:
+array.length //tamanho do array
+array.toString() //imprimir o contéudo do array
+array.push('conteúdo') //inserir um conteúdo no final
+array.pop() //remover último elemento
+array.unshift() //inserir um conteúdo no início
+array.shift() //remover o 1º elemento do array
+array.indexOf('elemento') //retorna o índice do elemento
+obs: -1 (retorno quando não encontrou o elemento)
+___________________________________________________________
+array.join(' - ') //inserir um caractere entre os elementos
+concat // unir dois arrays
+Ex:
+let novo_array = array1.cancat(array2)
+___________________________________________________________
+Percorrendo o array (iteração)
+// for
+for (let i = 0; i < array.length; i++){
+  console.log(array[i]);
+}
+
+//forEach
+array.forEach(function(teste){
+  console.log(teste)
+})
+
+//in *** Dica Renato
+for (let i in array){
+  console.log(array[i])
+}
