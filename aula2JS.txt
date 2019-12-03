@@ -75,22 +75,3 @@ ou
 imc = peso / (Math.pow(altura, 2))
 Saída:
 imc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

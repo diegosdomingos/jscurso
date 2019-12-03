@@ -59,20 +59,3 @@ Tipos de variáveis:
 String (cadeia de caracteres)
 Numérica (números inteiros e não inteiros)
 Booleano (verdadeiro / falso)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

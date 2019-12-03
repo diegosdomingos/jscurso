@@ -42,6 +42,7 @@ Comparadores
 <  menor que
 <= menor ou igual a
 == comparador de igualdade
+=== comparador de igualdade (mais confiável)
 != diferente
 
 Operadores lógicos:
